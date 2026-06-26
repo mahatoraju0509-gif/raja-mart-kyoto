@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raja Mart Kyoto – 100% Pure Halal Foods</title>
+  <meta name="description" content="Raja Mart Kyoto – 100% Pure Halal Foods. Authentic halal groceries, spices and more in Shinmogyo-ku, Kyoto." />
+  <meta name="keywords" content="halal food, halal meat, halal groceries, Kyoto halal, Raja Mart" />
+  <meta name="author" content="Raju Mahato" />
+  <link rel="canonical" href="https://rajamartkyoto.com" />
+  <meta property="og:title" content="Raja Mart Kyoto – 100% Pure Halal Foods" />
+  <meta property="og:description" content="Your trusted halal grocery store in Kyoto. Fresh, authentic, and 100% pure." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rajamartkyoto.com" />
+  <meta property="og:image" content="https://rajamartkyoto.com/og-image.jpg" />
+  <script type="application/ld+json">
+  {
+    "@@context": "https://schema.org",
+    "@@type": "GroceryStore",
+    "name": "Raja Mart Kyoto",
+    "description": "100% Pure Halal Foods in Kyoto.",
+    "address": {
+      "@@type": "PostalAddress",
+      "streetAddress": "Nishioajicho 92-6",
+      "addressLocality": "Kyoto",
+      "addressRegion": "Shinmogyo-ku",
+      "postalCode": "600-8885",
+      "addressCountry": "Japan"
+    },
+    "telephone": "+81-90-2042-2038"
+  }
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%95%8C%3C/text%3E%3C/svg%3E" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Roboto, sans-serif; background: #faf8f5; color: #1e1e1e; line-height: 1.6; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
+    .animate-fade { animation: fadeInUp 0.8s ease forwards; }
+    .animate-pulse { animation: pulse 2s ease-in-out infinite; }
+    .animate-float { animation: float 3s ease-in-out infinite; }
+    .navbar { background: #0a2f1f; color: #f5efe6; padding: 16px 0; border-bottom: 4px solid #d4a259; position: sticky; top: 0; z-index: 100; }
+    .navbar .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+    .logo { display: flex; align-items: center; gap: 10px; }
+    .logo-icon { font-size: 2.2rem; }
+    .logo-text { font-size: 1.6rem; font-weight: 700; }
+    .logo-text span { color: #f5c542; font-weight: 300; }
+    .nav-links { display: flex; gap: 28px; font-weight: 500; font-size: 1.05rem; flex-wrap: wrap; }
+    .nav-links a { padding: 6px 0; border-bottom: 2px solid transparent; transition: 0.3s; text-decoration: none; color: #f5efe6; }
+    .nav-links a:hover, .nav-links a.active { border-bottom-color: #f5c542; color: #f5c542; }
+    .hero { background: linear-gradient(135deg, #e7ded1 0%, #d6cbbc 100%); padding: 50px 0 60px; position: relative; overflow: hidden; }
+    .hero::after { content: '🕌'; position: absolute; bottom: 10%; left: 5%; font-size: 8rem; opacity: 0.05; pointer-events: none; }
+    .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; position: relative; z-index: 1; }
+    .hero-content h1 { font-size: 3rem; font-weight: 700; color: #0a2f1f; line-height: 1.2; }
+    .hero-content h1 span { color: #b8860b; }
+    .hero-content p { margin: 20px 0 30px; font-size: 1.2rem; color: #2d3e2d; }
+    .hero-badge { display: inline-block; background: #0a2f1f; color: #f5c542; padding: 8px 20px; border-radius: 40px; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px; }
+    .btn { display: inline-block; background: #0a2f1f; color: #fff; padding: 12px 36px; border-radius: 40px; font-weight: 600; transition: 0.3s; text-decoration: none; }
+    .btn:hover { background: #d4a259; color: #0a2f1f; transform: scale(1.05); }
+    .hero-image img { width: 100%; max-height: 380px; object-fit: cover; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.2); border: 4px solid #fff; }
+    .info-card { background: #fff; border-radius: 20px; padding: 30px 35px; margin: -30px 0 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-left: 6px solid #d4a259; }
+    .info-card .owner { font-weight: 700; font-size: 1.2rem; }
+    .info-card .owner span { color: #b8860b; }
+    .info-card .contact { display: flex; gap: 30px; flex-wrap: wrap; }
+    .info-card .contact a { color: #0a2f1f; text-decoration: none; }
+    .info-card .contact a:hover { color: #d4a259; }
+    .halal-tag { background: #0a2f1f; color: #f5c542; padding: 6px 18px; border-radius: 40px; font-weight: 700; letter-spacing: 1px; animation: pulse 2s ease-in-out infinite; }
+    .products { padding: 40px 0 60px; }
+    .products h2 { font-size: 2.2rem; margin-bottom: 30px; color: #0a2f1f; text-align: center; }
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; }
+    .product-item { background: #fff; padding: 25px 20px; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.04); text-align: center; transition: 0.4s; border: 1px solid #eee; }
+    .product-item:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); border-color: #d4a259; }
+    .product-item .emoji-big { font-size: 3.5rem; display: block; margin-bottom: 10px; }
+    .product-item h4 { font-size: 1.2rem; color: #0a2f1f; }
+    .product-item p { color: #5a5a5a; font-size: 0.95rem; }
+    .map-section { padding: 40px 0 60px; background: #f0ebe4; }
+    .map-section h2 { font-size: 2.2rem; margin-bottom: 20px; color: #0a2f1f; text-align: center; }
+    .map-container { border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 4px solid #fff; }
+    .map-container iframe { width: 100%; height: 400px; border: 0; }
+    .dev-section { background: linear-gradient(135deg, #0a2f1f 0%, #1a4f2f 100%); color: #ddd; padding: 40px 0; border-top: 4px solid #d4a259; border-bottom: 4px solid #d4a259; }
+    .dev-section .container { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+    .dev-box { background: rgba(255,255,255,0.05); padding: 25px; border-radius: 16px; border: 1px solid rgba(212,162,89,0.2); transition: 0.3s; }
+    .dev-box:hover { background: rgba(255,255,255,0.1); transform: translateY(-5px); }
+    .dev-box h3 { color: #f5c542; font-size: 1.2rem; margin-bottom: 12px; }
+    .dev-box ul { list-style: none; padding: 0; font-size: 0.95rem; }
+    .dev-box ul li { padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .dev-box ul li:last-child { border-bottom: none; }
+    .dev-box a { color: #f5c542; text-decoration: none; }
+    .dev-box a:hover { color: #fff; text-decoration: underline; }
+    .profile-photo { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 4px solid #d4a259; box-shadow: 0 0 30px rgba(212,162,89,0.3); transition: 0.3s; background: #d4a259; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: #0a2f1f; }
+    .profile-photo:hover { transform: scale(1.05); border-color: #f5c542; }
+    .profile-photo.small { width: 60px; height: 60px; font-size: 1.8rem; }
+    .dev-flex { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+    .dev-flex .info { flex: 1; }
+    .app-badge { display: inline-block; background: rgba(212,162,89,0.15); border: 1px solid #d4a259; border-radius: 8px; padding: 4px 12px; font-size: 0.8rem; color: #f5c542; margin: 2px; }
+    .footer { background: #0a2f1f; color: #ddd; padding: 30px 0; text-align: center; border-top: 2px solid #1a4f2f; }
+    .footer .container { display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; }
+    .footer a { color: #f5c542; text-decoration: none; }
+    .footer a:hover { color: #fff; text-decoration: underline; }
+    @media (max-width: 768px) {
+      .hero-grid { grid-template-columns: 1fr; text-align: center; }
+      .hero-content h1 { font-size: 2.2rem; }
+      .info-card { flex-direction: column; gap: 12px; text-align: center; }
+      .nav-links { gap: 14px; font-size: 0.95rem; justify-content: center; margin-top: 10px; }
+      .navbar .container { justify-content: center; }
+      .footer .container { flex-direction: column; gap: 8px; }
+      .map-container iframe { height: 250px; }
+      .dev-section .container { grid-template-columns: 1fr; }
+      .dev-flex { flex-direction: column; text-align: center; }
+      .profile-photo { margin: 0 auto; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon animate-float">🕌</span>
+        <div class="logo-text">Raja <span>Mart</span></div>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="active">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#map">Location</a>
+        <a href="#dev">Developer</a>
+      </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content animate-fade">
+        <div class="hero-badge animate-pulse">100% PURE HALAL</div>
+        <h1>Fresh. Authentic.<br /><span>Halal Foods</span> in Kyoto</h1>
+        <p>Your trusted halal grocery store — meat, spices, pantry essentials and more.</p>
+        <a href="#products" class="btn">Explore Shop</a>
+      </div>
+      <div class="hero-image animate-fade">
+        <img src="file:///C:/Users/user/Pictures/halal-store.jpg" alt="Raja Mart Kyoto" />
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="info-card animate-fade">
+      <div class="owner">👤 <span>Khim Karki</span> · Owner</div>
+      <div class="contact">
+        <div>📍 Kyoto, Shinmogyo-ku, Nishioajicho, 92-6</div>
+        <div>📞 <a href="tel:+819020422038">090-2042-2038</a></div>
+        <div>💰 ₹600-8885</div>
+      </div>
+      <div class="halal-tag">✅ 100% HALAL</div>
+    </div>
+  </div>
+  <section class="products" id="products">
+    <div class="container">
+      <h2>🌿 Our Halal Selection</h2>
+      <div class="product-grid">
+        <div class="product-item"><span class="emoji-big">🥩</span><h4>Fresh Halal Meat</h4><p>Chicken, mutton, beef</p></div>
+        <div class="product-item"><span class="emoji-big">🌶️</span><h4>Spices and Masala</h4><p>Authentic Indian spices</p></div>
+        <div class="product-item"><span class="emoji-big">🍚</span><h4>Basmati Rice</h4><p>Premium long-grain</p></div>
+        <div class="product-item"><span class="emoji-big">🧃</span><h4>Drinks and Snacks</h4><p>Halal-certified</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="map-section" id="map">
+    <div class="container">
+      <h2>📍 Find Us in Kyoto</h2>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.874216474126!2d135.7558!3d35.0038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001084c4b8d8e2b%3A0x8d8e2b4b8d8e2b4b!2sKyoto%2C%20Shinmogyo-ku%2C%20Nishioajicho%2C%2092-6!5e0!3m2!1sen!2sjp!4v1700000000000" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div style="text-align:center;margin-top:15px;">
+        <a href="https://maps.app.goo.gl/vbsBVnBRDhqXieA97" target="_blank" class="btn" style="background:#d4a259;color:#0a2f1f;">🗺️ Open in Google Maps</a>
+      </div>
+    </div>
+  </section>
+  <section class="dev-section" id="dev">
+    <div class="container">
+      <div class="dev-box">
+        <h3>👨‍💻 Developer — Raju Mahato</h3>
+        <div class="dev-flex">
+          <div class="profile-photo">👤</div>
+          <div class="info">
+            <ul>
+              <li><strong>Name:</strong> Raju Mahato (Nuniya)</li>
+              <li><strong>📍 Location:</strong> Yamunamai-1, Rauthat, Nepal</li>
+              <li><strong>📧 Email:</strong> <a href="mailto:info@rajumahato.com">info@rajumahato.com</a></li>
+              <li><strong>📱 WhatsApp:</strong> <a href="https://wa.me/819036694264">+81 090-3669-4264</a></li>
+              <li><strong>🔗 Facebook:</strong> <a href="https://www.facebook.com/mahatodigambar5" target="_blank">Raju Mahato</a></li>
+              <li><strong>🌐 Websites:</strong> <a href="https://rajumahato.it.com" target="_blank">rajumahato.it.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div style="margin-top:12px;">
+          <span class="app-badge">📱 Thagi Satark</span>
+          <span class="app-badge">🎓 EduPath AI</span>
+          <span class="app-badge">🇳🇵 Nepal's #1 Developer</span>
+        </div>
+      </div>
+      <div class="dev-box">
+        <h3>👤 Store Owner — Khim Karki</h3>
+        <div class="dev-flex">
+          <div class="profile-photo small">👤</div>
+          <div class="info">
+            <ul>
+              <li><strong>Name:</strong> Khim Karki</li>
+              <li><strong>Store:</strong> Raja Mart Kyoto</li>
+              <li><strong>📞 WhatsApp:</strong> <a href="tel:+819020422038">+81 90-2042-2038</a></li>
+              <li><strong>🔗 Facebook:</strong> <a href="https://www.facebook.com/share/1EZYGQseye/" target="_blank">Khim Karki</a></li>
+              <li><strong>🏪 Store FB:</strong> <a href="https://www.facebook.com/profile.php?id=61574230057030" target="_blank">Raja Mart Kyoto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="dev-box">
+        <h3>🚀 Projects</h3>
+        <ul>
+          <li><strong>📱 Thagi Satark</strong> — Nepal's First AI Fraud App<br/><a href="https://thagi-satark.vercel.app" target="_blank">thagi-satark.vercel.app</a></li>
+          <li><strong>🎓 EduPath AI</strong> — Nepal's First Offline AI Study App<br/><a href="https://www.edupath.ai" target="_blank">www.edupath.ai</a></li>
+        </ul>
+      </div>
+      <div class="dev-box">
+        <h3>📊 SEO & Links</h3>
+        <ul>
+          <li>✅ Structured Data (JSON-LD)</li>
+          <li>✅ Open Graph Tags</li>
+          <li>✅ Mobile Responsive</li>
+          <li>✅ Google Maps Integration</li>
+          <li>✅ Full CSS Animations</li>
+          <li>👨‍💻 Developed by: Raju Mahato</li>
+          <li>🗺️ <a href="https://maps.app.goo.gl/vbsBVnBRDhqXieA97" target="_blank">Store Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 <strong>Raja Mart Kyoto</strong> — 100% Pure Halal</span>
+      <span>
+        <a href="https://www.facebook.com/profile.php?id=61574230057030" target="_blank">Facebook</a> · 
+        <a href="mailto:info@rajamartkyoto.com">Email</a>
+      </span>
+      <span>📍 Shinmogyo-ku, Kyoto</span>
+    </div>
+  </footer>
+</body>
+</html>
